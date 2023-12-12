@@ -1,0 +1,24 @@
+/* detail-film.component.css */
+
+.film-container {
+    display: flex;
+    padding: 2px;
+    background-color: rgb(251, 106, 4);
+  }
+
+  
+  .film-image {
+    width: 150px; /* La largeur maximale de l'image est de 50% de la largeur du conteneur */
+    margin-left: 10px;
+    margin-right:20px; /* Marge à droite pour séparer l'image des détails */
+    border: 1px solid #1c1b1b;
+    border-radius: 10px;
+    box-sizing: content-box;
+  }
+  
+  .film-details {
+    max-width:  50%; /* La largeur maximale des détails est de 50% de la largeur du conteneur */
+  }
+  
+  /* Ajoutez d'autres styles au besoin */
+  

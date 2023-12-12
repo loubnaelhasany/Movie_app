@@ -1,0 +1,10 @@
+<div class="content">
+<app-detail-film *ngIf="showDetails" [film]="film " ></app-detail-film>
+<div style=" display: grid;
+grid-template-columns: repeat(4, 1fr); /* Crée 4 colonnes égales */
+gap: 20px;">
+    <app-film-item  *ngFor = "let film of  listfilms "
+       [film] = film (filmSelected)="setFilm($event)"> 
+    </app-film-item>
+</div>
+</div>
